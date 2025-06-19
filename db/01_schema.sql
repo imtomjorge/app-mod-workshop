@@ -18,3 +18,6 @@ CREATE TABLE images (
     inappropriate TINYINT(1) DEFAULT 0,
     FOREIGN KEY (user_id) REFERENCES users(id)
 );
+
+
+
